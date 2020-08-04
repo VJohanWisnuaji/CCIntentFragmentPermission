@@ -19,9 +19,9 @@ class PageAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm, BEHAVIOR_RESUM
 
         override fun getPageTitle(position: Int): CharSequence? {
             return when(position){
-                0 -> "Fragment A"
-                1 -> "Fragment B"
-                else -> "Fragment C"
+                0 -> "Fragment 1"
+                1 -> "Fragment 2"
+                else -> "Fragment 3"
             }
         }
 }
